@@ -74,6 +74,7 @@ public function registerBundles()
 You can configure default query parameter names and templates
 
 ```yaml
+#config/packages/paginator.yaml
 knp_paginator:
     page_range: 5                       # number of links showed in the pagination menu (e.g: you have 10 pages, a page_range of 3, on the 5th page you'll see links to page 4, 5, 6)
     default_options:
